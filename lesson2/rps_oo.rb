@@ -118,8 +118,7 @@ class Link < Player
   end
 
   def choose
-    self.move = VALUES[['rock', 'rock', 'rock', 'rock', 'paper', 'lizard'] +
-                       ['spock', 'spock', 'scissors', 'lizard'].sample]
+    self.move = VALUES[['lizard', 'spock', 'lizard'].sample]
   end
 end
 
@@ -139,8 +138,7 @@ class Luigi < Player
   end
 
   def choose
-    self.move = VALUES[['spock', 'spock', 'spock'] +
-                       ['spock', 'spock', 'paper'].sample]
+    self.move = VALUES[['spock', 'spock', 'spock', 'paper'].sample]
   end
 end
 
