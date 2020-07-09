@@ -1,5 +1,3 @@
-require 'pry'
-
 class Card
   include Comparable
   attr_reader :rank, :suit
